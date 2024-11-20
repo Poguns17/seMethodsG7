@@ -41,5 +41,4 @@ jobs:
           distribution: 'adopt'
 
       - name: Build and run tests
-        run: |
-          ./mvn test for Maven projects
+        run: mvn test
