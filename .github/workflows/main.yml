@@ -42,4 +42,4 @@ jobs:
 
       - name: Build and run tests
         run: |
-          ./mvnw test for Maven projects
+          ./mvn test for Maven projects
