@@ -6,7 +6,7 @@ import java.sql.SQLException;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class AppTest {
+class AppUnitTest {
 
     private static final String DB_URL = "jdbc:mysql://localhost:3306/world?useSSL=true";
     private static final String USER = "root";
