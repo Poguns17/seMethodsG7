@@ -42,4 +42,4 @@ jobs:
 
       - name: Build and run tests
         run: |
-          ./gradlew test # Use ./mvnw test for Maven projects
+          ./mvnw test for Maven projects
