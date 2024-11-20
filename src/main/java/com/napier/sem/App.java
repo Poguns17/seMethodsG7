@@ -1,5 +1,4 @@
 package com.napier.sem;
-
 import java.sql.*;
 
 public class App
@@ -46,6 +45,18 @@ public class App
             }
         }
 
+        System.out.println("Application started...");
+
+        try
+        {
+            CountryReports reportGenerator = new CountryReports();
+            reportGenerator.reportAllCountriesByPopulation(con);
+        }
+        catch (Exception e)
+        {
+            System.out.println("An error occurred: " + e.getMessage());
+        }
+
         if (con != null)
         {
             try
@@ -58,5 +69,7 @@ public class App
                 System.out.println("Error closing connection to database");
             }
         }
+
     }
 }
+
