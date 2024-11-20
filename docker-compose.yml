@@ -10,6 +10,7 @@ services:
       - ./db/world-db/world.sql:/docker-entrypoint-initdb.d/world.sql
     ports:
       - "3306:3306"
+    restart: always  # Keep the db service running if it crashes
 
   app:
     build:
