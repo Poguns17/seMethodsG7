@@ -7,9 +7,9 @@ import java.sql.SQLException;
 public class DatabaseConnection {
 
     // Database connection parameters
-    private static final String JDBC_URL = "jdbc:mysql://db/world-db/world.sql:3306/world?useSSL=true";
-    private static final String USERNAME = "root";
-    private static final String PASSWORD = "example";
+    private static final String JDBC_URL = "jdbc:mysql://localhost:3306/world?useSSL=true"; // Update with your test DB
+    private static final String USERNAME = "root"; // Your test username
+    private static final String PASSWORD = "example"; // Your test password
 
     // Retry parameters
     private static final int MAX_RETRIES = 10;
