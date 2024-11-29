@@ -10,8 +10,9 @@ public class CountryReports {
     public void reportAllCountriesByPopulation(Connection connection) {
         String query = "SELECT Name, Population FROM country ORDER BY Population DESC";
 
-        try (Statement statement = connection.createStatement();
-             ResultSet resultSet = statement.executeQuery(query)) {
+        try {
+            Statement statement = connection.createStatement();
+            ResultSet resultSet = statement.executeQuery(query);
 
             // Print the report header
             System.out.printf("%-30s %-15s%n", "Country", "Population");
