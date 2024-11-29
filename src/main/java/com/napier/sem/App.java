@@ -25,7 +25,7 @@ public class App
             try
             {
                 // Wait a bit for db to start
-                Thread.sleep(30000);
+                Thread.sleep(10000);
                 // Connect to database
                 con = DriverManager.getConnection("jdbc:mysql://localhost:3306/world?useSSL=true", "root", "example");
                 System.out.println("Successfully connected");
@@ -57,19 +57,39 @@ public class App
             System.out.println("An error occurred: " + e.getMessage());
         }
 
+
+        System.out.println("City Reports...");
+
+        // Create an instance of CityReports to execute reports
+        try
+        {
+            CityReports cityReports = new CityReports();
+
+            // Call various methods to generate reports
+            cityReports.reportAllCitiesByPopulation(con); // Report 1
+            cityReports.reportCitiesByContinent(con, "Europe"); // Report 2
+            cityReports.reportCitiesByRegion(con, "Western Europe"); // Report 3
+            cityReports.reportTopNCitiesByPopulation(con, 10); // Report 6
+            cityReports.reportTopNCitiesByContinent(con, "Europe", 10); // Report 7
+            cityReports.reportCity(con, "Amsterdam"); // Report 11
+        }
+        catch (Exception e)
+        {
+            System.out.println("An error occurred while generating reports: " + e.getMessage());
+        }
+
+        // Close the connection to the database
         if (con != null)
         {
             try
             {
-                // Close connection
                 con.close();
+                System.out.println("Database connection closed");
             }
-            catch (Exception e)
+            catch (SQLException e)
             {
-                System.out.println("Error closing connection to database");
+                System.out.println("Error closing connection to database: " + e.getMessage());
             }
         }
-
     }
 }
-
