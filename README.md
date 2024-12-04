@@ -3,8 +3,7 @@
 ## Project Overview
 This project is a collaborative effort by our group to develop a **Population Information Reporting System** for an organization that needs to analyze and report population data.
 
-## Badges 
-![GitHub Workflow Status (master)](https://img.shields.io/github/actions/workflow/status/Poguns17/seMethodsG7/main.yml?branch=master)
+## Badges
 
 Main Branch ![Build Status (master)](https://img.shields.io/github/actions/workflow/status/Poguns17/seMethodsG7/main.yml?branch=master)
 
