@@ -29,3 +29,69 @@ The system will:
 - Karaha Muyizere
 
 32 requirements of 32 have been implemented, which is 100%.
+
+ID 1 - Percentage of the world population for each language (done)
+
+ID 2 - Number of speakers globally for specified languages (done)
+
+ID 3 - City Population (done)
+
+ID 4 - District population (done)
+
+ID 5 - Country population (done)
+
+ID 6 - Region population (done)
+
+ID 6 - Continent population (done)
+
+ID 7 - World Population (done)
+
+ID 8 - Cities by Population (Region) (done)
+
+ID 9 - Cities by population (country) (done)
+
+ID 10 - Cities by population (district) (done)
+
+ID 11 - Top N Cities by Population (world) (done)
+
+ID 12 - Top N cities by population (continent) (done)
+
+ID 13 - Top N cities by population (region) (done)
+
+ID 14 - Top N cities by population (country) (done)
+
+ID 15 - Top N cities by population (district) (done)
+
+ID 16 - Capital cities by population (world) (done)
+
+ID 17 - Capital Cities by Population (continent) (done)
+
+ID 18 - Capital cities by population (region) (done)
+
+ID 19 - Top N capital cities by population (world) (done)
+
+ID 20 - Top N capital cities by population (continent) (done)
+
+ID 21 - Top N capital cities by population (region) (done)
+
+ID 22 - Population in Continents (Total, Cities, Rural) (done)
+
+ID 23 - Population in Regions (Total, Cities, Rural) (done)
+
+ID 24 - Population in Countries (Total, Cities, Rural) (done)
+
+ID 25 - Cities by population (continent) (done)
+
+ID 26 - Cities by Population (world) (done)
+
+ID 27 - Top N Countries by Population (region) (done)
+
+ID 28 - Top N Countries by Population (Continent) (done)
+
+ID 29 - Top N countries by population (world) (done)
+
+ID 30 - Countries by population (region) (done)
+
+ID 31 - Countries by population (continent) (done)
+
+ID 32 - Countries by population (world) (done)
